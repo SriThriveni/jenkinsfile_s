@@ -1,6 +1,6 @@
 node{
 stage('first stage'){
-https://github.com/SriThriveni/t2.git
+git 'https://github.com/SriThriveni/jenkinsfile_s.git'
 }
 stage('second stage'){
 build 'firstjob'
